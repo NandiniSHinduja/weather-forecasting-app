@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air Pollutants"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CO (Carbon Monoxide)"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/prime"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO2 (Nitrogen Dioxide)"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/prime2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O3 (Ozone)"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/prime3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SO2 (Sulphur Dioxide)"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/prime4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PM2.5 (Particulate matter less than 2.5 microns)"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/prime5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PM10 (Particulate matter less than 10 microns)"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/prime6"/>
+
+</LinearLayout>

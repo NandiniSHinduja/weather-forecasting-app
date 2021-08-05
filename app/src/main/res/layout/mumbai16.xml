@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    tools:context=".main_weather"
+    android:orientation="vertical">
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:id="@+id/head"
+            android:text="Dharavi Slum, Today"
+            android:textStyle= "bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="26sp"
+            android:paddingTop="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textDate"
+            android:textSize="16sp"
+            android:textStyle= "bold"
+            android:paddingLeft="20dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textMaxTemp"
+                android:paddingLeft="30dp"
+                android:textStyle= "bold"
+                android:paddingTop="30dp"
+                android:textSize="70sp"
+                android:layout_height="wrap_content"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="250dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/image"
+                    android:layout_height="150dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/textMain"
+                    android:textSize="16sp"
+                    android:paddingLeft="100dp"
+                    android:textStyle= "bold"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textHumidity"
+            android:textSize="16sp"
+            android:paddingLeft="20dp"
+            android:textStyle= "bold"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textWind"
+            android:paddingLeft="20dp"
+            android:textSize="16sp"
+            android:textStyle= "bold"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        tools:context=".main_weather"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:id="@+id/head1"
+            android:text="Dharavi Slum, Tomorrow"
+            android:textStyle= "bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="26sp"
+            android:paddingTop="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textDate1"
+            android:textSize="16sp"
+            android:textStyle= "bold"
+            android:paddingLeft="20dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/textMaxTemp1"
+                android:paddingLeft="30dp"
+                android:textStyle= "bold"
+                android:paddingTop="30dp"
+                android:textSize="70sp"
+                android:layout_height="wrap_content"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="250dp"
+                    android:paddingLeft="10dp"
+                    android:id="@+id/image1"
+                    android:layout_height="150dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/textMain1"
+                    android:textSize="16sp"
+                    android:paddingLeft="100dp"
+                    android:textStyle= "bold"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textHumidity1"
+            android:textSize="16sp"
+            android:paddingLeft="20dp"
+            android:textStyle= "bold"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textWind1"
+            android:paddingLeft="20dp"
+            android:textSize="16sp"
+            android:textStyle= "bold"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

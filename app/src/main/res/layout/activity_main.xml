@@ -1,0 +1,3712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:onClick="myListener"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/video" />
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:id="@+id/main_forecast"
+        android:onClick="myListener"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="myListener"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:onClick="myListener"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+
+                android:id="@+id/Today"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:onClick="myListener"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="52sp"
+                android:paddingLeft="20dp"
+
+
+                android:paddingBottom="20dp"
+                android:id="@+id/textView0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:onClick="myListener"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+
+                android:paddingBottom="20dp"
+
+                android:id="@+id/textView00"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="myListener"
+                android:id="@+id/imageView0"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:onClick="myListener1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener1"
+                android:id="@+id/imageView"
+                android:paddingTop="20dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener1"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="210dp"
+            android:paddingTop="20dp"
+            android:id="@+id/textView"
+            android:paddingLeft="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+            android:textStyle="bold"
+            android:onClick="myListener1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textView2"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:onClick="myListener1"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:id="@+id/textView3"
+            android:paddingLeft="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+                android:onClick="myListener1"
+            android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:onClick="myListener2"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView2"
+                android:onClick="myListener2"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener2"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView4"
+                android:onClick="myListener2"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener2"
+                android:id="@+id/textView5"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView6"
+                android:paddingLeft="60dp"
+                android:onClick="myListener2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:onClick="myListener3"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView3"
+                android:onClick="myListener3"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener3"
+
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView7"
+                android:paddingLeft="20dp"
+                android:onClick="myListener3"
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:id="@+id/textView8"
+                android:onClick="myListener3"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener3"
+                android:id="@+id/textView9"
+                android:paddingLeft="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingRight="10dp"
+
+
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener4"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener4"
+                android:id="@+id/imageView4"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener4"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener4"
+                android:id="@+id/textView10"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener4"
+                android:id="@+id/textView11"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="myListener4"
+
+                android:id="@+id/textView12"
+                android:textStyle="bold"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:onClick="myListener5"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener5"
+                android:id="@+id/imageView5"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener5"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener5"
+
+
+                android:id="@+id/textView13"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener5"
+                android:id="@+id/textView14"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:id="@+id/textView15"
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener6"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener6"
+                android:id="@+id/imageView6"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener6"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener6"
+
+
+                android:id="@+id/textView16"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener6"
+                android:id="@+id/textView17"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView18"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="myListener6"
+
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener7"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener7"
+                android:id="@+id/imageView7"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener7"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView19"
+                android:onClick="myListener7"
+
+
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener7"
+                android:id="@+id/textView20"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener7"
+                android:id="@+id/textView21"
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener8"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView8"
+                android:onClick="myListener8"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener8"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView22"
+                android:onClick="myListener8"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener8"
+                android:id="@+id/textView23"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+
+                android:onClick="myListener8"
+
+                android:id="@+id/textView24"
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener9"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener9"
+                android:id="@+id/imageView9"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener9"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener9"
+
+
+                android:id="@+id/textView25"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener9"
+                android:id="@+id/textView26"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView27"
+                android:onClick="myListener9"
+                android:textStyle="bold"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener10"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:onClick="myListener10"
+                android:layout_height="50dp"
+                android:id="@+id/imageView10"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener10"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener10"
+
+
+                android:id="@+id/textView28"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener10"
+                android:id="@+id/textView29"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView30"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="myListener10"
+
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener11"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener11"
+                android:id="@+id/imageView11"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener11"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener11"
+                android:id="@+id/textView31"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener11"
+                android:id="@+id/textView32"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener11"
+                android:id="@+id/textView33"
+                android:paddingLeft="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener12"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener12"
+                android:id="@+id/imageView12"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener12"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:onClick="myListener12"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingTop="20dp"
+                android:id="@+id/textView34"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener12"
+                android:id="@+id/textView35"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="myListener12"
+
+                android:id="@+id/textView36"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener13"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:onClick="myListener13"
+                android:layout_height="50dp"
+                android:id="@+id/imageView13"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener13"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:onClick="myListener13"
+                android:paddingTop="20dp"
+                android:id="@+id/textView37"
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="20dp"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener13"
+                android:id="@+id/textView38"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+                android:text="weather"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener13"
+                android:id="@+id/textView39"
+
+
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:onClick="myListener14"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener14"
+                android:id="@+id/imageView14"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener14"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener14"
+                android:id="@+id/textView40"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener14"
+                android:id="@+id/textView41"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView42"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:onClick="myListener14"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:onClick="myListener15"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:onClick="myListener15"
+                android:layout_height="50dp"
+                android:id="@+id/imageView15"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener15"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener15"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView43"
+                android:paddingLeft="20dp"
+
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener15"
+                android:id="@+id/textView44"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener15"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:id="@+id/textView45"
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener16"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:onClick="myListener16"
+                android:layout_height="50dp"
+                android:id="@+id/imageView16"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener16"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener16"
+                android:id="@+id/textView46"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener16"
+                android:id="@+id/textView47"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView48"
+                android:textStyle="bold"
+                android:paddingLeft="60dp"
+                android:onClick="myListener16"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener17"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener17"
+                android:id="@+id/imageView17"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener17"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView49"
+                android:onClick="myListener17"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener17"
+                android:id="@+id/textView50"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView51"
+                android:paddingLeft="60dp"
+                android:onClick="myListener17"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener18"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener18"
+                android:id="@+id/imageView18"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener18"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener18"
+                android:id="@+id/textView52"
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="20dp"
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener18"
+                android:id="@+id/textView53"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView54"
+                android:paddingLeft="60dp"
+                android:onClick="myListener18"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:onClick="myListener19"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:onClick="myListener19"
+                android:layout_height="50dp"
+                android:id="@+id/imageView19"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener19"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener19"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView55"
+                android:paddingLeft="20dp"
+
+
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener19"
+                android:id="@+id/textView56"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView57"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:onClick="myListener19"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener20"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:onClick="myListener20"
+                android:layout_height="50dp"
+                android:id="@+id/imageView20"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener20"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView58"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="myListener20"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener20"
+                android:id="@+id/textView59"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener20"
+                android:id="@+id/textView60"
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener21"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener21"
+                android:id="@+id/imageView21"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener21"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener21"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView61"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener21"
+                android:id="@+id/textView62"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener21"
+                android:id="@+id/textView63"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:onClick="myListener22"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener22"
+                android:id="@+id/imageView22"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener22"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+
+                android:onClick="myListener22"
+
+                android:id="@+id/textView64"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener22"
+                android:id="@+id/textView65"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener22"
+                android:id="@+id/textView66"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener23"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener23"
+                android:id="@+id/imageView23"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener23"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView67"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:onClick="myListener23"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener23"
+                android:id="@+id/textView68"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView69"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:onClick="myListener23"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener24"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener24"
+                android:id="@+id/imageView24"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener24"
+                android:orientation="vertical">
+
+
+              <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView70"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                  android:onClick="myListener24"
+
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener24"
+                android:id="@+id/textView71"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView72"
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingRight="10dp"
+                android:onClick="myListener24"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener25"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener25"
+                android:id="@+id/imageView25"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener25"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView73"
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="20dp"
+                android:onClick="myListener25"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener25"
+                android:id="@+id/textView74"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView75"
+                android:textStyle="bold"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:onClick="myListener25"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener26"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:onClick="myListener26"
+                android:layout_height="50dp"
+                android:id="@+id/imageView26"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener26"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView76"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="myListener26"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener26"
+                android:id="@+id/textView77"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView78"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:onClick="myListener26"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener27"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener27"
+                android:id="@+id/imageView27"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener27"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView79"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+                android:onClick="myListener27"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener27"
+                android:id="@+id/textView80"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener27"
+                android:id="@+id/textView81"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:onClick="myListener28"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener28"
+                android:id="@+id/imageView28"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener28"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView82"
+                android:onClick="myListener28"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="20dp"
+
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener28"
+                android:id="@+id/textView83"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView84"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:onClick="myListener28"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener29"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener29"
+                android:id="@+id/imageView29"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener29"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener29"
+                android:id="@+id/textView85"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="20dp"
+
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener29"
+                android:id="@+id/textView86"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener29"
+                android:id="@+id/textView87"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener30"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener30"
+                android:id="@+id/imageView30"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener30"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView88"
+                android:onClick="myListener30"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener30"
+                android:id="@+id/textView89"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView90"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:onClick="myListener30"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener31"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView31"
+                android:onClick="myListener31"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener31"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener31"
+                android:id="@+id/textView91"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener31"
+                android:id="@+id/textView92"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener31"
+                android:id="@+id/textView93"
+                android:paddingLeft="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener32"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener32"
+                android:id="@+id/imageView32"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener32"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener32"
+                android:id="@+id/textView94"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener32"
+                android:id="@+id/textView95"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView96"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:onClick="myListener32"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener33"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener33"
+                android:id="@+id/imageView33"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener33"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:onClick="myListener33"
+                android:id="@+id/textView97"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener33"
+                android:id="@+id/textView98"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:onClick="myListener33"
+                android:id="@+id/textView99"
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:onClick="myListener34"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener34"
+                android:id="@+id/imageView34"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener34"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView100"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:onClick="myListener34"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener34"
+                android:id="@+id/textView101"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView102"
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingRight="10dp"
+                android:onClick="myListener34"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener35"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener35"
+                android:id="@+id/imageView35"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener35"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+
+                android:onClick="myListener35"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView103"
+                android:paddingLeft="20dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:id="@+id/textView104"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+                android:onClick="myListener35"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView105"
+                android:textStyle="bold"
+                android:paddingLeft="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingRight="10dp"
+                android:onClick="myListener35"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener36"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener36"
+                android:id="@+id/imageView36"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener36"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView106"
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="20dp"
+                android:onClick="myListener36"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener36"
+                android:id="@+id/textView107"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView108"
+                android:textStyle="bold"
+                android:paddingLeft="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingRight="10dp"
+                android:onClick="myListener36"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener37"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:onClick="myListener37"
+                android:layout_height="50dp"
+                android:id="@+id/imageView37"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener37"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:textStyle="bold"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingTop="20dp"
+                android:onClick="myListener37"
+                android:id="@+id/textView109"
+                android:paddingLeft="20dp"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener37"
+                android:id="@+id/textView110"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView111"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:paddingLeft="60dp"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:onClick="myListener37"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener38"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:onClick="myListener38"
+                android:id="@+id/imageView38"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:onClick="myListener38"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="myListener38"
+                android:id="@+id/textView112"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:onClick="myListener38"
+                android:id="@+id/textView113"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView114"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+
+                android:onClick="myListener38"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="myListener39"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener39"
+                android:id="@+id/imageView39"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:onClick="myListener39"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView115"
+                android:paddingLeft="20dp"
+                android:onClick="myListener39"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener39"
+                android:id="@+id/textView116"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView117"
+                android:paddingLeft="60dp"
+                android:paddingRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+
+                android:textStyle="bold"
+                android:onClick="myListener39"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myListener40"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="myListener40"
+                android:id="@+id/imageView40"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="myListener40"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:paddingTop="20dp"
+                android:id="@+id/textView118"
+                android:textStyle="bold"
+                android:onClick="myListener40"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="20dp"
+
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:onClick="myListener40"
+                android:id="@+id/textView119"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="20dp"
+                android:id="@+id/textView120"
+                android:textStyle="bold"
+                android:paddingLeft="60dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:onClick="myListener40"
+
+                android:paddingRight="10dp"
+
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        </LinearLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="10dp">
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                card_view:cardBackgroundColor="@color/blue"
+                android:layout_height="200dp"
+                android:paddingBottom="20dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+                <TextView
+                    android:id="@+id/info_text"
+                    android:text="Hourly Forecast"
+                    android:textStyle="bold"
+                    android:paddingTop="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingBottom="20dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+               <HorizontalScrollView
+                   android:layout_width="wrap_content"
+                   android:scrollbars="none"
+                   android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/time1"/>
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem1"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:paddingLeft="20dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time2"/>
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem2"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:paddingLeft="20dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img2"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time3"/>
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem3"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:paddingLeft="20dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img3"/>
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:id="@+id/time4"/>
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem4"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:paddingLeft="20dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img4"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:id="@+id/time5"/>
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem5"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:paddingLeft="20dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img5"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:id="@+id/time6"/>
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem6"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:paddingLeft="20dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img6"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:id="@+id/time7"/>
+                        <TextView
+                            android:paddingLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem7"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:paddingLeft="20dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img7"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+
+                            android:id="@+id/time8"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/tem8"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:paddingLeft="20dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img8"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time9"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/tem9"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:paddingLeft="20dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img9"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/time10"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem10"
+                            android:paddingLeft="20dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img10"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+
+                            android:id="@+id/time11"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem11"
+                            android:paddingLeft="20dp"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img11"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:layout_height="wrap_content"
+
+                            android:id="@+id/time12"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem12"
+                            android:paddingLeft="20dp"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:paddingLeft="20dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img12"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+
+                            android:id="@+id/time13"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem13"
+
+                            android:paddingLeft="20dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img13"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:paddingLeft="20dp"
+                            android:id="@+id/time14"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem14"
+                            android:paddingLeft="20dp"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img14"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:layout_height="wrap_content"
+
+                            android:id="@+id/time15"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem15"
+                            android:paddingLeft="20dp"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img15"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+
+                            android:id="@+id/time16"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem16"
+                            android:paddingLeft="20dp"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:paddingLeft="20dp"
+
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img16"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+
+                            android:id="@+id/time17"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/tem17"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img17"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+
+                            android:id="@+id/time18"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem18"
+                            android:paddingLeft="20dp"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img18"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:paddingLeft="20dp"
+                            android:id="@+id/time19"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem19"
+
+                            android:paddingLeft="20dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img19"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:paddingLeft="20dp"
+                            android:id="@+id/time20"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem20"
+
+                            android:paddingLeft="20dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:paddingLeft="20dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img20"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:paddingLeft="20dp"
+                            android:id="@+id/time21"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem21"
+
+                            android:paddingLeft="20dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:paddingLeft="20dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img21"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:layout_height="wrap_content"
+
+                            android:id="@+id/time22"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem22"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img22"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+
+                            android:id="@+id/time23"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tem23"
+                            android:paddingLeft="20dp"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/hourly_img23"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:layout_height="wrap_content"
+
+                            android:id="@+id/time24"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:id="@+id/tem24"
+
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:paddingLeft="20dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/hourly_img24"/>
+                    </LinearLayout>
+                </LinearLayout>
+               </HorizontalScrollView>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="10dp">
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            card_view:cardBackgroundColor="@color/blue"
+            android:layout_height="100dp"
+            android:onClick="pollution"
+
+            card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pollution"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:onClick="pollution"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:paddingLeft="20dp"
+                android:text="Air Pollution"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="pollution"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/aqi_today"
+                />
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="10dp">
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view3"
+
+                    android:layout_gravity="center"
+                    android:layout_width="350dp"
+                    card_view:cardBackgroundColor="@color/blue"
+                    android:layout_height="200dp"
+                    android:paddingBottom="20dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/info_text3"
+                            android:text="Daily Forecast"
+                            android:textStyle="bold"
+                            android:paddingTop="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingBottom="20dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                        <HorizontalScrollView
+                            android:layout_width="wrap_content"
+                            android:scrollbars="none"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/timer1"/>
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP1"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img1"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/timer2"/>
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP2"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img2"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/timer3"/>
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP3"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img3"/>
+                                </LinearLayout>
+                                <LinearLayout
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:id="@+id/timer4"/>
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP4"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img4"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:id="@+id/timer5"/>
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP5"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img5"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:id="@+id/timer6"/>
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP6"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img6"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:id="@+id/timer7"/>
+                                    <TextView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP7"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:paddingLeft="20dp"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img7"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="20dp"
+
+                                        android:id="@+id/timer8"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/temP8"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:paddingLeft="20dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img8"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:paddingLeft="20dp"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/timer9"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/temP9"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:paddingLeft="20dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img9"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/timer10"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP10"
+                                        android:paddingLeft="20dp"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/hour_img10"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="20dp"
+
+                                        android:id="@+id/timer11"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP11"
+                                        android:paddingLeft="20dp"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/hour_img11"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:paddingLeft="20dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:id="@+id/timer12"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP12"
+                                        android:paddingLeft="20dp"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:paddingLeft="20dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img12"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="20dp"
+
+                                        android:id="@+id/timer13"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP13"
+
+                                        android:paddingLeft="20dp"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/hour_img13"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/timer14"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP14"
+                                        android:paddingLeft="20dp"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/hour_img14"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:paddingLeft="20dp"
+                                        android:layout_height="wrap_content"
+
+                                        android:id="@+id/timer15"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP15"
+                                        android:paddingLeft="20dp"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:paddingLeft="20dp"
+                                        android:id="@+id/hour_img15"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:paddingLeft="20dp"
+
+                                        android:id="@+id/timer16"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/temP16"
+                                        android:paddingLeft="20dp"
+
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textStyle="bold"/>
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:paddingLeft="20dp"
+
+                                        android:layout_height="50dp"
+                                        android:id="@+id/hour_img16"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+              <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="10dp">
+
+                <androidx.cardview.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view4"
+
+                    android:layout_gravity="center"
+                    android:layout_width="350dp"
+                    card_view:cardBackgroundColor="@color/blue"
+                    android:layout_height="520dp"
+                    android:paddingBottom="20dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/info_text4"
+                            android:text="Weekly Forecast"
+                            android:textStyle="bold"
+                            android:paddingTop="20dp"
+                            android:paddingLeft="20dp"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:id="@+id/weeklyImage1"
+                    android:paddingTop="20dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:paddingTop="20dp"
+                        android:id="@+id/weeklyDay1"
+                        android:paddingLeft="20dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                        android:textStyle="bold"
+
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/weeklyDate1"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:textStyle="bold"
+
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:paddingTop="20dp"
+                    android:id="@+id/weeklyTemp1"
+                    android:paddingLeft="20dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"
+
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+
+                                android:id="@+id/weeklyImage2"
+                                android:paddingTop="20dp"/>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="210dp"
+                                    android:paddingTop="20dp"
+                                    android:id="@+id/weeklyDay2"
+                                    android:paddingLeft="20dp"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:id="@+id/weeklyDate2"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:paddingTop="20dp"
+                                android:id="@+id/weeklyTemp2"
+                                android:paddingLeft="20dp"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+
+                                android:id="@+id/weeklyImage3"
+                                android:paddingTop="20dp"/>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="210dp"
+                                    android:paddingTop="20dp"
+                                    android:id="@+id/weeklyDay3"
+                                    android:paddingLeft="20dp"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:id="@+id/weeklyDate3"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:paddingTop="20dp"
+                                android:id="@+id/weeklyTemp3"
+                                android:paddingLeft="20dp"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+
+                                android:id="@+id/weeklyImage4"
+                                android:paddingTop="20dp"/>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="210dp"
+                                    android:paddingTop="20dp"
+                                    android:id="@+id/weeklyDay4"
+                                    android:paddingLeft="20dp"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:id="@+id/weeklyDate4"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:paddingTop="20dp"
+                                android:id="@+id/weeklyTemp4"
+                                android:paddingLeft="20dp"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+
+                                android:id="@+id/weeklyImage5"
+                                android:paddingTop="20dp"/>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="210dp"
+                                    android:paddingTop="20dp"
+                                    android:id="@+id/weeklyDay5"
+                                    android:paddingLeft="20dp"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:id="@+id/weeklyDate5"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:paddingTop="20dp"
+                                android:id="@+id/weeklyTemp5"
+                                android:paddingLeft="20dp"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+
+                                android:id="@+id/weeklyImage6"
+                                android:paddingTop="20dp"/>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="210dp"
+                                    android:paddingTop="20dp"
+                                    android:id="@+id/weeklyDay6"
+                                    android:paddingLeft="20dp"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:id="@+id/weeklyDate6"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:paddingTop="20dp"
+                                android:id="@+id/weeklyTemp6"
+                                android:paddingLeft="20dp"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:weightSum="3"
+
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+
+                                android:id="@+id/weeklyImage7"
+                                android:paddingTop="20dp"/>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="210dp"
+                                    android:paddingTop="20dp"
+                                    android:id="@+id/weeklyDay7"
+                                    android:paddingLeft="20dp"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:id="@+id/weeklyDate7"
+                                    android:paddingLeft="20dp"
+                                    android:paddingRight="20dp"
+                                    android:textStyle="bold"
+
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:paddingTop="20dp"
+                                android:id="@+id/weeklyTemp7"
+                                android:paddingLeft="20dp"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                                android:textStyle="bold"
+                                android:paddingRight="10dp"
+
+                                android:layout_height="wrap_content" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+              </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="10dp">
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view5"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                card_view:cardBackgroundColor="@color/blue"
+                android:layout_height="300dp"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <Switch
+                            android:switchMinWidth="56dp"
+
+                            android:textOff="Night"
+                            android:textOn="Day"
+                            android:paddingTop="20dp"
+                            android:showText="false"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="300dp"
+                            android:id="@+id/switcher"
+                            android:switchTextAppearance="?android:attr/textAppearanceMedium"
+                            android:checked="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/info_text5"
+                        android:textStyle="bold"
+                        android:paddingLeft="20dp"
+                        android:paddingBottom="20dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:paddingLeft="20dp"
+                            android:paddingBottom="20dp"
+                            android:src="@drawable/dukes"
+                            android:id="@+id/sun"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingBottom="20dp"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+
+                            android:id="@+id/sunrise"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:textStyle="bold"
+                            android:paddingBottom="20dp"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:id="@+id/sunset"/>
+                    </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            </FrameLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

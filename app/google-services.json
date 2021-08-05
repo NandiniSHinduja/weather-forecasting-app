@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074232805469",
+    "project_id": "weather-9dcbc",
+    "storage_bucket": "weather-9dcbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074232805469:android:d445500448896dbaea25b4",
+        "android_client_info": {
+          "package_name": "com.example.windy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074232805469-4vl44jnbrea1f25b4ci940di7lrn40gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU_rxSC8cVmg9FuumcWsXj8tV3AAMu4kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074232805469-4vl44jnbrea1f25b4ci940di7lrn40gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

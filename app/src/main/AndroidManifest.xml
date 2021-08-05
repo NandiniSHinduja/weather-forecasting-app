@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.windy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Windy">
+
+        <activity android:name=".main_weather" />
+        <activity android:name=".weather1" />
+        <activity android:name=".weather2" />
+        <activity android:name=".weather3" />
+        <activity android:name=".weather4" />
+        <activity android:name=".weather5" />
+        <activity android:name=".weather6" />
+        <activity android:name=".weather7" />
+        <activity android:name=".weather8" />
+        <activity android:name=".weather9" />
+        <activity android:name=".weather10" />
+        <activity android:name=".weather11" />
+        <activity android:name=".weather12" />
+        <activity android:name=".weather13" />
+        <activity android:name=".weather14" />
+        <activity android:name=".weather15" />
+        <activity android:name=".weather16" />
+        <activity android:name=".weather17" />
+        <activity android:name=".weather18" />
+        <activity android:name=".weather19" />
+        <activity android:name=".weather20" />
+        <activity android:name=".weather21" />
+        <activity android:name=".weather22" />
+        <activity android:name=".weather23" />
+        <activity android:name=".weather24" />
+        <activity android:name=".weather25" />
+        <activity android:name=".weather26" />
+        <activity android:name=".weather27" />
+        <activity android:name=".weather28" />
+        <activity android:name=".weather29" />
+        <activity android:name=".weather30" />
+        <activity android:name=".weather31" />
+        <activity android:name=".weather32" />
+        <activity android:name=".weather33" />
+        <activity android:name=".weather34" />
+        <activity android:name=".weather35" />
+        <activity android:name=".weather36" />
+        <activity android:name=".weather37" />
+        <activity android:name=".weather38" />
+        <activity android:name=".weather39" />
+        <activity android:name=".weather40" />
+        <activity android:name=".Mumbai" />
+        <activity android:name=".Mumbai1" />
+        <activity android:name=".Mumbai2" />
+        <activity android:name=".Mumbai3" />
+        <activity android:name=".Mumbai4" />
+        <activity android:name=".Mumbai5" />
+        <activity android:name=".Mumbai6" />
+        <activity android:name=".Mumbai7" />
+        <activity android:name=".Mumbai8" />
+        <activity android:name=".Mumbai9" />
+        <activity android:name=".Mumbai10" />
+        <activity android:name=".Mumbai11" />
+        <activity android:name=".Mumbai12" />
+        <activity android:name=".Mumbai13" />
+        <activity android:name=".Mumbai14" />
+        <activity android:name=".Mumbai15" />
+        <activity android:name=".Mumbai16" />
+        <activity android:name=".Mumbai17" />
+        <activity android:name=".Mumbai18" />
+        <activity android:name=".Mumbai19" />
+        <activity android:name=".Chennai" />
+        <activity android:name=".Chennai1" />
+        <activity android:name=".Chennai2" />
+        <activity android:name=".Chennai3" />
+        <activity android:name=".Chennai4" />
+        <activity android:name=".Chennai5" />
+        <activity android:name=".Chennai6" />
+        <activity android:name=".Chennai7" />
+        <activity android:name=".Chennai8" />
+        <activity android:name=".Chennai9" />
+        <activity android:name=".Chennai10" />
+        <activity android:name=".Chennai11" />
+        <activity android:name=".Chennai12" />
+        <activity android:name=".Chennai13" />
+        <activity android:name=".Chennai14" />
+        <activity android:name=".Chennai15" />
+        <activity android:name=".Chennai16" />
+        <activity android:name=".Chennai17" />
+        <activity android:name=".Chennai18" />
+        <activity android:name=".Chennai19" />
+        <activity android:name=".Tourist" />
+        <activity android:name=".News" />
+        <activity android:name=".Route" />
+        <activity android:name=".Pollution" />
+        <activity android:name=".MapRoute" />
+        <activity android:name=".MapRoute2" />
+        <activity android:name=".MapRoute3" />
+        <activity android:name=".MapRoute4" />
+        <activity android:name=".MapRoute5" />
+        <activity android:name=".Notifications" />
+        <activity android:name=".Fact" />
+        <activity android:name=".Day" />
+        <activity android:name=".MainActivity"/>
+
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+        android:value="@string/map_key"/>
+
+        <activity android:name=".FrontPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                 android:launchMode="singleTop"
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.windy.settings"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+            '
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+
+
+</manifest>

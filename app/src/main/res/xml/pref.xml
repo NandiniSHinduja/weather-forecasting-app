@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        android:title="Location"
+        android:key="@string/Location"
+        android:defaultValue="@string/Chennai"
+        android:id="@+id/plsChange"
+        android:inputType="text"
+        android:singleLine="true"/>
+    <ListPreference
+        android:summary="%s"
+        android:defaultValue="@string/Celsius"
+        android:key="@string/TemperatureUnits"
+
+        android:id="@+id/plsChange2"
+        android:entries="@array/items_name"
+        android:entryValues="@array/items_value"
+        android:title="Temperature Units" />
+
+
+
+</PreferenceScreen>
